@@ -49,6 +49,7 @@ audioGame();
 
       let end = document.querySelector(".control-end")
       end.style.display = 'block'
+      document.getElementById("fail").remove()
     }
   }
 }
